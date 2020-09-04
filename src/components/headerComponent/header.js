@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
+function dropDownJS() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
 class Header extends Component {
     render(){
         return (
             <header>
-                <div className="logo">
-                    <a href="/"><img src='./longBirdsLogo.png'/></a>
-                </div>
-
                 <div id="desktop">
+                    <div className="logo">
+                        <a href="/"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
+                    </div>
                     <nav>
                         <ul>
                             <li>
@@ -35,14 +46,19 @@ class Header extends Component {
                     </nav>
                 </div>
                 <div id="mobile">
+                    <div className="logo">
+                        <a href="/"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
+                    </div>
                     <div className="dropdown">
-                            <button className="dropbtn">Dropdown 
+                            <button className="dropbtn" onClick={dropDownJS}> Menu Temp
                                 <i className="fa fa-caret-down"></i>
                             </button>
-                        <div className="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                        <div className="dropdown-content" id="myDropdown">
+                            <a href="#">Music</a>
+                            <a href="#">Products</a>
+                            <a href="#">Videos</a>
+                            <a href="#">Show Dates</a>
+                            <a href="#">Contact</a>
                         </div>
                     </div>
                 </div>

@@ -156,7 +156,7 @@ header{
     }
 
     #desktop {}
-    @media (max-width: 900px) {
+    @media (max-width: 900px) { // Mobile version of header
       border: 1px solid $red;
 
       #desktop {
@@ -165,6 +165,29 @@ header{
 
       #mobile {
         display: block;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+
+        a {
+          float: left;
+          font-size: 16px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        .logo {
+          img {
+            float: left;
+            height: auto;
+            max-width: 75%;
+          }
+        }
+
+        a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+          background-color: $white;
+        }
       }
 
       nav {
@@ -186,22 +209,24 @@ header{
       }
 
       .dropdown {
-        float: left;
+        margin-top: 3%;
+        margin-right: 5%;
+        float: right;
         overflow: hidden;
       }
-      
+
       .dropdown .dropbtn {
-        font-size: 16px;  
-        border: none;
+        font-size: 16px;
+        border: 1px solid $white;
         outline: none;
-        color: white;
+        color: $black;
         padding: 14px 16px;
         background-color: inherit;
         font-family: inherit;
         margin: 0;
       }
 
-      .dropdown-content a{
+      .dropdown-content {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
@@ -209,14 +234,27 @@ header{
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
       }
+      .dropdown-content a{
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+      }
 
       .dropdown-content a:hover {
-        background-color: #ddd;
+        background-color: $black; // change this color
       }
 
       .dropdown:hover .dropdown-content {
         display: block;
       }
+
+      .show {
+        display: block;
+      }
+
     }
 }
 
