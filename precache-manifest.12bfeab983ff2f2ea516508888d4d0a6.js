@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ff0b02d10cbe1af2ec4e72de0b9f83b",
+    "revision": "1880daafff31fa43edb2cc7cb2dc2f26",
     "url": "/longbirds/index.html"
   },
   {
-    "revision": "54e67c9b4f77501ad970",
-    "url": "/longbirds/static/css/main.e62ba797.chunk.css"
+    "revision": "2fe628f48ffd75c962a5",
+    "url": "/longbirds/static/css/main.fca35b2b.chunk.css"
   },
   {
-    "revision": "a1ffec27674b335f504b",
-    "url": "/longbirds/static/js/2.682d1396.chunk.js"
+    "revision": "630ec78eba1f09108f2b",
+    "url": "/longbirds/static/js/2.a9dc202c.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/longbirds/static/js/2.682d1396.chunk.js.LICENSE.txt"
+    "url": "/longbirds/static/js/2.a9dc202c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "54e67c9b4f77501ad970",
-    "url": "/longbirds/static/js/main.4f0ed49f.chunk.js"
+    "revision": "2fe628f48ffd75c962a5",
+    "url": "/longbirds/static/js/main.b86e4867.chunk.js"
   },
   {
     "revision": "a9c73baf1f113becc882",
