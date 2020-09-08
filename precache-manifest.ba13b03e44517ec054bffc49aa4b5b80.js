@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1880daafff31fa43edb2cc7cb2dc2f26",
+    "revision": "ec40e53e5b7eee498e06028080d0d7b2",
     "url": "/longbirds/index.html"
   },
   {
-    "revision": "2fe628f48ffd75c962a5",
-    "url": "/longbirds/static/css/main.fca35b2b.chunk.css"
+    "revision": "4fd39fece848489929fc",
+    "url": "/longbirds/static/css/main.8a5ec2d0.chunk.css"
   },
   {
     "revision": "630ec78eba1f09108f2b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/longbirds/static/js/2.a9dc202c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fe628f48ffd75c962a5",
-    "url": "/longbirds/static/js/main.b86e4867.chunk.js"
+    "revision": "4fd39fece848489929fc",
+    "url": "/longbirds/static/js/main.c3ce6501.chunk.js"
   },
   {
     "revision": "a9c73baf1f113becc882",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8f8ca2313ed4a0433d019df02104c839",
     "url": "/longbirds/static/media/fingers-teeth.8f8ca231.jpg"
-  },
-  {
-    "revision": "f7b4d4885756440deec2798dc9c7da4b",
-    "url": "/longbirds/static/media/longbirdsHeader.f7b4d488.jpg"
   },
   {
     "revision": "6cd28662c130901fadf6f64e925446af",
