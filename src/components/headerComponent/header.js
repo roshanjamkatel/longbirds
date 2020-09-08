@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
+import SliderMenu from 'react-slider-menu';
 
 function dropDownJS() {
     document.getElementById("myDropdown").classList.toggle("show");
@@ -19,7 +19,7 @@ class Header extends Component {
             <header>
                 <div id="desktop">
                     <div className="logo">
-                        <a href="/"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
+                        <a href="/longbirds"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
                     </div>
                     <nav>
                         <ul>
@@ -45,15 +45,16 @@ class Header extends Component {
                         </ul>
                     </nav>
                 </div>
+
                 <div id="mobile">
                     <div className="logo">
-                        <a href="/"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
+                        <a href="/longbirds"><img src={require('../../imgs/logos/longBirdsLogo.png')}/></a>
                     </div>
                     <div className="dropdown">
-                            <button className="dropbtn" onClick={dropDownJS}> Menu Temp
-                                <i className="fa fa-caret-down"></i>
-                            </button>
-                        <div className="dropdown-content" id="myDropdown">
+                        <button className="dropbtn" onClick={dropDownJS}> Menu Temp
+                            <i className="fa fa-caret-down"></i>
+                        </button>
+                            <div className="dropdown-content" id="myDropdown">
                             <a href="#">Music</a>
                             <a href="#">Products</a>
                             <a href="#">Videos</a>

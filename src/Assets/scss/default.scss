@@ -64,9 +64,7 @@
   height: 100%;
 }
 #headerImg{
-
-  background-image: url("longbirdsHeader.jpg");
-
+  background-image: require('../../imgs/logos/longbirdsHeader.png');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -113,8 +111,8 @@ header{
     opacity: 100;
     color: $white;
     height: 90px;
-    
- 
+
+
     .logo{
         position: absolute;
         top: 50%;
@@ -185,76 +183,69 @@ header{
           }
         }
 
+
+        ul {
+          float: left;
+          overflow: hidden;
+        }
+
+        li {
+          float: left;
+          font-size: 16px;
+          color: $black;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        .dropdown {
+          margin-top: 3%;
+          margin-right: 5%;
+          float: right;
+          overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+          cursor: pointer;
+          font-size: 16px;
+          //border: 1px solid $red; // for debugging
+          outline: none;
+          color: $white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit;
+          margin: 0;
+        }
+
         a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-          background-color: $white;
+          border: 1px solid $white;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: red;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+        .dropdown-content a{
+          float: none;
+          color: $white;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {
+          background-color: $red; // change this color
+        }
+
+        .dropdown-content show {
+          display: block;
         }
       }
-
-      nav {
-        overflow: hidden;
-      }
-
-      ul {
-        float: left;
-        overflow: hidden;
-      }
-
-      li {
-        float: left;
-        font-size: 16px;
-        color: black;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      .dropdown {
-        margin-top: 3%;
-        margin-right: 5%;
-        float: right;
-        overflow: hidden;
-      }
-
-      .dropdown .dropbtn {
-        font-size: 16px;
-        border: 1px solid $white;
-        outline: none;
-        color: $black;
-        padding: 14px 16px;
-        background-color: inherit;
-        font-family: inherit;
-        margin: 0;
-      }
-
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      .dropdown-content a{
-        float: none;
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: right;
-      }
-
-      .dropdown-content a:hover {
-        background-color: $black; // change this color
-      }
-
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
-
-      .show {
-        display: block;
-      }
-
     }
 }
 
