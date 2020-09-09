@@ -19,7 +19,7 @@ import './Assets/css/default.min.css';
 function App() {
   return (
     <Router>
-            <Header/>
+            <Header />
     <div className="App">
         <Route exact path='/longbirds' component={Homepage}/>
         <Route exact path='/Music' component={Music}/>
