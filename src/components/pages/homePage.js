@@ -7,7 +7,7 @@ class Homepage extends Component {
             <div id="landing-page">
                 <div id="headerImg" style= {{backgroundImage: "url(" +  Background + ")"}}>
                     <div className="homepage-text-styles"><center>
-                        <h1>To Kimball out now! </h1>
+                        <h1>Under construction. </h1>
                         <div className="homepage-buttons">
                             <a className="btn btn-outline-light" href="/music" role="button">Music</a>
                             <a className="btn btn-outline-light" href="/showdates" role="button">Show Dates</a>
