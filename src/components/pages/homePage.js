@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-
+import Background from '../../imgs/logos/longbirdsHeader.jpg';
 
 class Homepage extends Component {
     render(){
         return (
             <div id="landing-page">
-                <div id="headerImg">
+                <div id="headerImg" style= {{backgroundImage: "url(" +  Background + ")"}}>
                     <div className="homepage-text-styles"><center>
                         <h1>To Kimball out now! </h1>
                         <div className="homepage-buttons">
