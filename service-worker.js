@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/longbirds/precache-manifest.a3eff8c48d4c212b45e33bd08898e086.js"
+  "/longbirds/precache-manifest.34552313dbd1e06f2f0cd0c467d066e4.js"
 );
 
 self.addEventListener('message', (event) => {

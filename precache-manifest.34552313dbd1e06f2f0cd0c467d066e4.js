@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5eb586f4f50119e4ba5c079a58495737",
+    "revision": "2502abdd08b5976937023df37cf27d84",
     "url": "/longbirds/index.html"
   },
   {
-    "revision": "ef19e3877e0016aab067",
-    "url": "/longbirds/static/css/main.3d0e6210.chunk.css"
+    "revision": "46217d7ef79acfcd432f",
+    "url": "/longbirds/static/css/main.9dcee803.chunk.css"
   },
   {
     "revision": "8f5f4e222850c6d10738",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/longbirds/static/js/2.44465975.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ef19e3877e0016aab067",
-    "url": "/longbirds/static/js/main.256f3b1d.chunk.js"
+    "revision": "46217d7ef79acfcd432f",
+    "url": "/longbirds/static/js/main.262b1c2a.chunk.js"
   },
   {
     "revision": "a9c73baf1f113becc882",

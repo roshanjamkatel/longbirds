@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/longbirds/static/css/main.3d0e6210.chunk.css",
-    "main.js": "/longbirds/static/js/main.256f3b1d.chunk.js",
-    "main.js.map": "/longbirds/static/js/main.256f3b1d.chunk.js.map",
+    "main.css": "/longbirds/static/css/main.9dcee803.chunk.css",
+    "main.js": "/longbirds/static/js/main.262b1c2a.chunk.js",
+    "main.js.map": "/longbirds/static/js/main.262b1c2a.chunk.js.map",
     "runtime-main.js": "/longbirds/static/js/runtime-main.b4b9c834.js",
     "runtime-main.js.map": "/longbirds/static/js/runtime-main.b4b9c834.js.map",
     "static/js/2.44465975.chunk.js": "/longbirds/static/js/2.44465975.chunk.js",
     "static/js/2.44465975.chunk.js.map": "/longbirds/static/js/2.44465975.chunk.js.map",
     "index.html": "/longbirds/index.html",
-    "precache-manifest.a3eff8c48d4c212b45e33bd08898e086.js": "/longbirds/precache-manifest.a3eff8c48d4c212b45e33bd08898e086.js",
+    "precache-manifest.34552313dbd1e06f2f0cd0c467d066e4.js": "/longbirds/precache-manifest.34552313dbd1e06f2f0cd0c467d066e4.js",
     "service-worker.js": "/longbirds/service-worker.js",
-    "static/css/main.3d0e6210.chunk.css.map": "/longbirds/static/css/main.3d0e6210.chunk.css.map",
+    "static/css/main.9dcee803.chunk.css.map": "/longbirds/static/css/main.9dcee803.chunk.css.map",
     "static/js/2.44465975.chunk.js.LICENSE.txt": "/longbirds/static/js/2.44465975.chunk.js.LICENSE.txt",
     "static/media/beans-nintendo.jpg": "/longbirds/static/media/beans-nintendo.69b07b34.jpg",
     "static/media/fingers-teeth.jpg": "/longbirds/static/media/fingers-teeth.8f8ca231.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4b9c834.js",
     "static/js/2.44465975.chunk.js",
-    "static/css/main.3d0e6210.chunk.css",
-    "static/js/main.256f3b1d.chunk.js"
+    "static/css/main.9dcee803.chunk.css",
+    "static/js/main.262b1c2a.chunk.js"
   ]
 }
